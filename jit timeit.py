@@ -17,7 +17,7 @@ def func(s, n):
     return s
 
 start = timeit.timeit()
-print("Euler's constant is: {:9.8f}".format(func(0,1) - np.log(n)))
+print("The Euler's constant is: {:9.8f}".format(func(0,1) - np.log(n)))
 
 end = timeit.timeit()
 print("Elapsed time is: {:9.8f} seconds".format(end - start))
