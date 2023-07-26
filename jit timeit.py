@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 24 15:57:09 2023
-
-@author: Administrator
-"""
-
 import timeit
 import numpy as np
 from numba import jit
